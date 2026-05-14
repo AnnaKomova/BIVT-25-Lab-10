@@ -3,6 +3,7 @@ namespace Lab9.Green
     public abstract class Green
     {
         private string _input;
+
         public string Input => _input;
 
         protected Green(string input)
@@ -17,8 +18,4 @@ namespace Lab9.Green
             Review();
         }
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> Add files via upload
